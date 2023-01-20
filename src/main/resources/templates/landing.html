@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Landing Page</title>
-    <link rel="stylesheet" href="../static/landing.css" />
+    <link rel="stylesheet" th:href="@{/landing.css}"/>
 </head>
 <body>
     <div id="home_view">
@@ -17,9 +17,9 @@
             <label for="inputField2"></label>
             <input type="password" class="inputField" id="inputField2" placeholder="Password">
 
-            <p id="resetField"><a href="landing.html" id="passReset">Forgot Password?</a></p>
             <button class="landingButton">Log In</button>
             <button class="landingButton">Register</button>
+            <p id="resetField"><a href="/" id="passReset">Forgot Password?</a></p>
 
         </div>
     </div>
