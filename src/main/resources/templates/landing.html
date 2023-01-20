@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Landing Page</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        #form_container {
-            border: 1px solid black;
-            width: 45%;
-            height: 50vh;
-            margin: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="../static/landing.css" />
 </head>
 <body>
-    <div>
+    <div id="home_view">
         <div id="form_container">
+
+            <h1 id="header">Spring Practice</h1>
+
+            <label for="inputField1"></label>
+            <input type="text" class="inputField" id="inputField1" placeholder="Email or Username">
+
+            <label for="inputField2"></label>
+            <input type="password" class="inputField" id="inputField2" placeholder="Password">
+
+            <p id="resetField"><a href="landing.html" id="passReset">Forgot Password?</a></p>
+            <button class="landingButton">Log In</button>
+            <button class="landingButton">Register</button>
 
         </div>
     </div>

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#home_view {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("spring.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#form_container {
+    border-radius: 5%;
+    width: 40%;
+    height: 65vh;
+    margin: auto;
+    display: grid;
+}
+#header {
+    text-align: center;
+    width: 96%;
+    margin: auto;
+    font-size: 3.5vw;
+    color: whitesmoke;
+}
+label {
+    display: none;
+    height: 0;
+    width: 0;
+}
+.inputField {
+    width: 86%;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    padding-left: .25vw;
+    font-size: 1.25vw;
+    color: aqua;
+    outline: none;
+    background-color: inherit;
+}
+#resetField {
+    text-align: center;
+    width: 96%;
+    margin: auto;
+    font-size: 1.1vw;
+}
+#passReset {
+    color: white;
+}
+#passReset:hover {
+    color: aqua;
+    cursor: pointer;
+}
+.landingButton {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    padding: 0;
+    font-size: 1.75vw;
+    border: none;
+    background-color: inherit;
+    border-radius: 10px;
+    color: white;
+}
+.landingButton:hover {
+    color: aqua;
+    cursor: pointer;
+}
