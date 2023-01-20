@@ -3,8 +3,71 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Registration</title>
+<!--    <link rel="stylesheet" th:href="@{/register.css}" />-->
+    <link rel="stylesheet" href="../static/register.css" />
 </head>
 <body>
-    <h1 style="width: 98%; text-align: center;">This is the registrations form</h1>
+
+    <div id="home_view">
+
+        <h1 id="welcome_header">We're Glad You're Here!</h1>
+
+        <div id="registration_form">
+
+            <label for="firstName"></label>
+            <input type="text"  class="inputField" name="firstName"
+                   id="firstName" placeholder="First Name" required />
+
+            <label for="lastName"></label>
+            <input type="text" class="inputField" name="lastName"
+                   id="lastName" placeholder="Last Name" required />
+
+            <label for="age"></label>
+            <input type="number" class="inputField" name="age"
+                   id="age" placeholder="Age" required />
+
+            <label for="email"></label>
+            <input type="email" class="inputField" name="email"
+                   id="email" placeholder="Email" required />
+
+            <label for="confirmEmail"></label>
+            <input type="email" class="inputField" name="confirmEmail"
+                   id="confirmEmail" placeholder="Confirm Email" required />
+
+            <label for="phoneNumber"></label>
+            <input type="tel" class="inputField" name="phoneNumber"
+                   id="phoneNumber" placeholder="Phone Number" />
+
+            <label for="username"></label>
+            <input type="text" class="inputField" name="username"
+                   id="username" placeholder="Desired Username" required />
+
+            <label for="password"></label>
+            <input type="password" class="inputField" name="password"
+                   id="password" placeholder="Password" required />
+
+            <label for="confirmPassword"></label>
+            <input  type="password" class="inputField" name="confirmPassword"
+                    id="confirmPassword" placeholder="Confirm Password" required />
+
+
+        </div>
+
+        <div id="registration_info">
+            <h1 id="registration_header">Registration Header</h1>
+            <p class="registration_body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut culpa, cum, ea enim facilis illum ipsa maiores neque nobis non quaerat, quia similique temporibus unde voluptatem voluptatibus! Deleniti dolores iure modi nihil quibusdam ratione? Delectus fuga incidunt maiores! Commodi explicabo facere inventore numquam odio pariatur possimus provident suscipit voluptas!</p>
+            <br />
+            <p class="registration_body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at corporis cum dolor dolorem expedita facere fugit impedit nam nisi nostrum odit perspiciatis possimus quaerat quo sed sint, tempora, tempore ullam, unde ut veritatis voluptatibus. Aliquam, debitis, doloribus ducimus eius enim, eos fuga harum incidunt laborum nobis ratione tenetur voluptate.</p>
+            <br />
+            <h2 id="registration_subheader">Registration SubHeader</h2>
+            <ol id="registration_list">
+                <li class="list_items">Lorem ipsum dolor sit amet.</li>
+                <li class="list_items">Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                <li class="list_items">Lorem ipsum dolor.</li>
+            </ol>
+        </div>
+
+    </div>
+
 </body>
 </html>

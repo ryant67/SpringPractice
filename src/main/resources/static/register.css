@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#home_view {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("particle.gif");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+#welcome_header {
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    font-size: 4vw;
+    color: whitesmoke;
+}
+
+/*Custom CSS for Registration Information
+    on left side of screen*/
+#registration_form {
+    width: 45%;
+    height: 75vh;
+    margin: auto;
+    border: 1px solid whitesmoke;
+}
+
+/*Custom CSS for Registration Information
+    on right side of screen*/
+#registration_info {
+    width: 45%;
+    height: 75vh;
+    margin: auto;
+    border: 1px solid whitesmoke;
+}
+#registration_header {
+    width: 98%;
+    margin:  2.5vh auto;
+    text-align: center;
+    color: whitesmoke;
+}
+.registration_body {
+    width: 90%;
+    margin: auto;
+    color: whitesmoke;
+}
+#registration_subheader {
+    color: whitesmoke;
+    width: 98%;
+    margin: auto;
+    font-size: 1.5vw;
+    text-align: center;
+}
+#registration_list {
+    color: whitesmoke;
+    width: 98%;
+    margin:  2vh auto;
+}
+.list_items {
+    width: 98%;
+    margin: auto;
+}
