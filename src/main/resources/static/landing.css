@@ -55,6 +55,13 @@ label {
     color: aqua;
     cursor: pointer;
 }
+#registerButton {
+    color: whitesmoke;
+    text-decoration: none;
+}
+#registerButton:hover {
+    color: aqua;
+}
 .landingButton {
     width: 50%;
     height: 70%;
