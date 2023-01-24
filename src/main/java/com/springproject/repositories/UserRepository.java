@@ -9,4 +9,5 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     //Allowing the search and capture of an individual user by username.
     //User findByUsername(String Username);
+    User saveUser(User user);
 }
